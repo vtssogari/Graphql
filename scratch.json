@@ -1,0 +1,165 @@
+{
+    "name": "root",
+    "type": "object",
+    "required": [],
+    "properties": [
+        {
+            "name": "quiz",
+            "type": "object",
+            "required": [],
+            "properties": [
+                {
+                    "name": "sport",
+                    "type": "object",
+                    "required": [],
+                    "properties": [
+                        {
+                            "name": "q1",
+                            "type": "object",
+                            "required": [],
+                            "properties": [
+                                {
+                                    "name": "question",
+                                    "type": "string",
+                                    "properties": []
+                                },
+                                {
+                                    "name": "options",
+                                    "type": "array",
+                                    "required": [],
+                                    "properties": [
+                                        {
+                                            "name": "array",
+                                            "type": "string",
+                                            "properties": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "answer",
+                                    "type": "string",
+                                    "properties": []
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "maths",
+                    "type": "object",
+                    "required": [],
+                    "properties": [
+                        {
+                            "name": "q1",
+                            "type": "object",
+                            "required": [],
+                            "properties": [
+                                {
+                                    "name": "question",
+                                    "type": "string",
+                                    "properties": []
+                                },
+                                {
+                                    "name": "options",
+                                    "type": "array",
+                                    "required": [],
+                                    "properties": [
+                                        {
+                                            "name": "array",
+                                            "type": "object",
+                                            "required": [],
+                                            "properties": [
+                                                {
+                                                    "name": "abc",
+                                                    "type": "string",
+                                                    "properties": []
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "answer",
+                                    "type": "string",
+                                    "properties": []
+                                }
+                            ]
+                        },
+                        {
+                            "name": "q2",
+                            "type": "object",
+                            "required": [],
+                            "properties": [
+                                {
+                                    "name": "question",
+                                    "type": "string",
+                                    "properties": []
+                                },
+                                {
+                                    "name": "options",
+                                    "type": "array",
+                                    "required": [],
+                                    "properties": [
+                                        {
+                                            "name": "array",
+                                            "type": "string",
+                                            "properties": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "answer",
+                                    "type": "string",
+                                    "properties": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "final",
+            "type": "object",
+            "required": [],
+            "properties": [
+                {
+                    "name": "abc",
+                    "type": "object",
+                    "required": [],
+                    "properties": [
+                        {
+                            "name": "q1",
+                            "type": "object",
+                            "required": [],
+                            "properties": [
+                                {
+                                    "name": "question",
+                                    "type": "string",
+                                    "properties": []
+                                },
+                                {
+                                    "name": "options",
+                                    "type": "array",
+                                    "required": [],
+                                    "properties": [
+                                        {
+                                            "name": "array",
+                                            "type": "string",
+                                            "properties": []
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "answer",
+                                    "type": "string",
+                                    "properties": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
